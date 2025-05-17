@@ -6,7 +6,7 @@ on:
       account:
         description: 'Number of Accounts to be generated (default = 0)'
         required: false
-        default: '0'
+        default: '1'
       key:
         description: 'Number of Keys to be generated (default = 1)'
         required: false
@@ -41,7 +41,7 @@ on:
         - macOS
         - Linux
         - Windows
-        default: macOS
+        default: Windows
       branch:
         description: "Repository branch (don't touch it if you don't know what it is!!!)"
         required: false
